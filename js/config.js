@@ -15,7 +15,7 @@ const CONFIG = {
     }
   },
   precos: {
-    limpeza: 80,
-    formatacao: 120
+    limpeza: 120,
+    formatacao: 100,
   }
 };

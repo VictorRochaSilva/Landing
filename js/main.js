@@ -85,8 +85,12 @@
     var precoLimpeza = document.getElementById('preco-limpeza');
     var precoFormatacao = document.getElementById('preco-formatacao');
 
-    if (precoLimpeza) precoLimpeza.textContent = CONFIG.precos.limpeza;
-    if (precoFormatacao) precoFormatacao.textContent = CONFIG.precos.formatacao;
+    if (precoLimpeza != null && CONFIG.precos.limpeza != null) {
+      precoLimpeza.textContent = CONFIG.precos.limpeza;
+    }
+    if (precoFormatacao != null && CONFIG.precos.formatacao != null) {
+      precoFormatacao.textContent = CONFIG.precos.formatacao;
+    }
   }
 
   function initScrollAnimations() {
