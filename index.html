@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Assistência em Informática | Limpeza, Formatação, Montagem de PC e Troca de Peças</title>
-  <meta name="description" content="Serviços de informática com preços transparentes: limpeza, formatação, troca de peças e montagem de PC. Orçamento rápido pelo WhatsApp.">
+  <title>Victor Rocha | Assistência em Informática e Desenvolvimento — PHP, Node, React, Next.js</title>
+  <meta name="description" content="Assistência em informática (limpeza, formatação, montagem de PC) e desenvolvimento: backend PHP/Node, frontend React, Next.js e React Native. Orçamento pelo WhatsApp.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -14,9 +14,9 @@
   <header class="site-header">
     <div class="container">
       <a class="logo" href="#">
-          <span class="logo__title">Assistência em Informática</span>
-          <span class="logo__name">Victor Rocha</span>
-        </a>
+        <span class="logo__name">Victor Rocha</span>
+        <span class="logo__tagline">Assistência em Informática · Desenvolvimento</span>
+      </a>
       <a id="btn-whatsapp-header" class="btn btn--small btn-whatsapp" href="#" aria-label="WhatsApp">
         <span class="btn__icon">
           <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
@@ -27,140 +27,255 @@
   </header>
 
   <main>
-    <section class="hero">
-      <div class="container hero__inner">
-        <p class="hero__badge hero__badge--shine" data-animate data-animate-delay="0">🛠️ Resolvo, limpo, formato e monto</p>
-        <h1 class="hero__title" data-animate data-animate-delay="1">PC travando? Formato sem dó. <span class="hero__highlight hero__highlight--gradient">Eu resolvo.</span></h1>
-        <p class="hero__text" data-animate data-animate-delay="2">Limpeza, formatação, troca de peças e montagem. Preço na hora pelo WhatsApp — sem enrolação.</p>
-        <a id="btn-whatsapp-hero" class="btn btn--large btn--glow btn-whatsapp" href="#" data-animate data-animate-delay="3">
-          <span class="btn__icon">
-            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-          </span>
-          Entrar em contato
-        </a>
-        <div class="hero__terminal" aria-hidden="true" data-animate data-animate-delay="3">
-          <div class="terminal__bar"><span></span><span></span><span></span></div>
-          <pre class="terminal__code"><code><span class="term--comment">O que eu faço:</span>
+    <!-- Switch: escolhe o tipo de serviço -->
+    <div class="mode-switch-wrap">
+      <div class="container">
+        <div class="mode-switch" role="tablist" aria-label="Tipo de serviço">
+          <button type="button" class="mode-switch__btn is-active" data-mode="assistencia" role="tab" aria-selected="true" aria-controls="view-assistencia" id="tab-assistencia">
+            <span class="mode-switch__icon">🛠️</span>
+            <span class="mode-switch__label">Assistência</span>
+            <span class="mode-switch__sublabel">PC, limpeza, formatação</span>
+          </button>
+          <button type="button" class="mode-switch__btn" data-mode="desenvolvimento" role="tab" aria-selected="false" aria-controls="view-desenvolvimento" id="tab-desenvolvimento">
+            <span class="mode-switch__icon">💻</span>
+            <span class="mode-switch__label">Desenvolvimento</span>
+            <span class="mode-switch__sublabel">Sites, APIs, apps</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- View: Assistência -->
+    <div id="view-assistencia" class="content-view is-visible" role="tabpanel" aria-labelledby="tab-assistencia">
+      <section class="hero">
+        <div class="container hero__inner">
+          <p class="hero__badge hero__badge--shine" data-animate data-animate-delay="0">🛠️ Resolvo, limpo, formato e monto</p>
+          <h1 class="hero__title" data-animate data-animate-delay="1">PC travando? Formato sem dó. <span class="hero__highlight hero__highlight--gradient">Eu resolvo.</span></h1>
+          <p class="hero__text" data-animate data-animate-delay="2">Limpeza, formatação, troca de peças e montagem. Preço na hora pelo WhatsApp — sem enrolação.</p>
+          <a id="btn-whatsapp-hero" class="btn btn--large btn--glow btn-whatsapp" href="#" data-animate data-animate-delay="3">
+            <span class="btn__icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></span>
+            Entrar em contato
+          </a>
+          <div class="hero__terminal" aria-hidden="true" data-animate data-animate-delay="3">
+            <div class="terminal__bar"><span></span><span></span><span></span></div>
+            <pre class="terminal__code"><code><span class="term--comment">O que eu faço:</span>
   • Limpeza de PC e notebook
   • Formatação (Windows ou Linux)
   • Troca de peças (não conserto, só troco)
   • Montagem de PC (inclusive gamer)
 
 <span class="term--ok">Orçamento rápido → Chame no WhatsApp!</span><span class="terminal__cursor">|</span></code></pre>
-        </div>
-      </div>
-      <div class="hero__bg" aria-hidden="true">
-        <div class="hero__orb hero__orb--1"></div>
-        <div class="hero__orb hero__orb--2"></div>
-      </div>
-    </section>
-
-    <div class="section-divider section-divider--wave" aria-hidden="true"></div>
-
-    <section class="section section--services" id="servicos">
-      <div class="container">
-        <p class="section__label" data-animate>Na prática</p>
-        <h2 class="section__title" data-animate>O que eu resolvo pra você</h2>
-        <div class="services-grid">
-          <article class="service-card" data-animate data-animate-delay="0">
-            <div class="service-card__icon" aria-hidden="true">🧹</div>
-            <h3 class="service-card__title">Limpeza</h3>
-            <p class="service-card__desc">Limpeza interna e externa do PC ou notebook. Remove poeira e melhora a refrigeração.</p>
-          </article>
-          <article class="service-card" data-animate data-animate-delay="1">
-            <div class="service-card__icon" aria-hidden="true">💾</div>
-            <h3 class="service-card__title">Formatação</h3>
-            <p class="service-card__desc">Formatação e instalação de Windows (ou Linux). Backup dos seus arquivos quando necessário.</p>
-          </article>
-          <article class="service-card" data-animate data-animate-delay="2">
-            <div class="service-card__icon" aria-hidden="true">🔧</div>
-            <h3 class="service-card__title">Troca de peças</h3>
-            <p class="service-card__desc">Substituição de componentes: HD/SSD, memória, fonte, etc. Não faço reparo de peças, apenas trocas.</p>
-          </article>
-          <article class="service-card" data-animate data-animate-delay="3">
-            <div class="service-card__icon" aria-hidden="true">🖥️</div>
-            <h3 class="service-card__title">Montagem de PC</h3>
-            <p class="service-card__desc">Montagem completa do computador, inclusive PC gamer. Instalação e configuração.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section section--pricing" id="precos">
-      <div class="container">
-        <p class="section__label" data-animate>Quanto custa</p>
-        <h2 class="section__title" data-animate>Preço na hora, sem surpresa</h2>
-        <p class="section__sub" data-animate>Valores a partir de. Pergunta no Zap que eu te falo.</p>
-        <div class="pricing-grid">
-          <div class="price-card" data-animate data-animate-delay="0">
-            <h3 class="price-card__title">Limpeza</h3>
-            <p class="price-card__value"><span class="price-card__currency">R$</span> <span id="preco-limpeza" class="price-card__number">80</span></p>
-            <p class="price-card__note">PC ou notebook</p>
-          </div>
-          <div class="price-card" data-animate data-animate-delay="1">
-            <h3 class="price-card__title">Formatação</h3>
-            <p class="price-card__value"><span class="price-card__currency">R$</span> <span id="preco-formatacao" class="price-card__number">120</span></p>
-            <p class="price-card__note">Com instalação do sistema</p>
-          </div>
-          <div class="price-card" data-animate data-animate-delay="2">
-            <h3 class="price-card__title">Montagem de PC</h3>
-            <p class="price-card__value"><span class="price-card__currency">R$</span> <span id="preco-montagem" class="price-card__number">150</span></p>
-            <p class="price-card__note">Montagem + configuração</p>
-          </div>
-          <div class="price-card price-card--highlight" data-animate data-animate-delay="3">
-            <h3 class="price-card__title">Troca de peças</h3>
-            <p class="price-card__value price-card__value--custom">Orçamento</p>
-            <p class="price-card__note">Me fala o que quebrou que eu te falo o preço</p>
-            <a id="btn-whatsapp-precos" class="btn btn--small btn-whatsapp" href="#">Perguntar no WhatsApp</a>
           </div>
         </div>
-      </div>
-    </section>
+        <div class="hero__bg" aria-hidden="true"><div class="hero__orb hero__orb--1"></div><div class="hero__orb hero__orb--2"></div></div>
+      </section>
+      <div class="section-divider section-divider--wave" aria-hidden="true"></div>
+      <section class="section section--services" id="servicos">
+        <div class="container">
+          <p class="section__label" data-animate>Na prática</p>
+          <h2 class="section__title" data-animate>O que eu resolvo pra você</h2>
+          <div class="services-grid">
+            <article class="service-card" data-animate data-animate-delay="0">
+              <div class="service-card__icon" aria-hidden="true">🧹</div>
+              <h3 class="service-card__title">Limpeza</h3>
+              <p class="service-card__desc">Limpeza interna e externa do PC ou notebook. Remove poeira e melhora a refrigeração.</p>
+            </article>
+            <article class="service-card" data-animate data-animate-delay="1">
+              <div class="service-card__icon" aria-hidden="true">💾</div>
+              <h3 class="service-card__title">Formatação</h3>
+              <p class="service-card__desc">Formatação e instalação de Windows (ou Linux). Backup dos seus arquivos quando necessário.</p>
+            </article>
+            <article class="service-card" data-animate data-animate-delay="2">
+              <div class="service-card__icon" aria-hidden="true">🔧</div>
+              <h3 class="service-card__title">Troca de peças</h3>
+              <p class="service-card__desc">Substituição de componentes: HD/SSD, memória, fonte, etc. Não faço reparo de peças, apenas trocas.</p>
+            </article>
+            <article class="service-card" data-animate data-animate-delay="3">
+              <div class="service-card__icon" aria-hidden="true">🖥️</div>
+              <h3 class="service-card__title">Montagem de PC</h3>
+              <p class="service-card__desc">Montagem completa do computador, inclusive PC gamer. Instalação e configuração.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="section section--pricing" id="precos">
+        <div class="container">
+          <p class="section__label" data-animate>Quanto custa</p>
+          <h2 class="section__title" data-animate>Preço na hora, sem surpresa</h2>
+          <p class="section__sub" data-animate>Valores a partir de. Pergunta no Zap que eu te falo.</p>
+          <div class="pricing-grid">
+            <div class="price-card" data-animate data-animate-delay="0">
+              <div class="price-card__icon" aria-hidden="true">🧹</div>
+              <h3 class="price-card__title">Limpeza</h3>
+              <p class="price-card__value"><span class="price-card__currency">R$</span> <span id="preco-limpeza" class="price-card__number">80</span></p>
+              <p class="price-card__note">PC ou notebook</p>
+              <a class="price-card__action btn-whatsapp-servico" href="#" data-whatsapp-servico="limpeza" title="Chamar no WhatsApp para limpeza">
+                <span class="price-card__action-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></span>
+                Chamar no WhatsApp
+              </a>
+            </div>
+            <div class="price-card" data-animate data-animate-delay="1">
+              <div class="price-card__icon" aria-hidden="true">💾</div>
+              <h3 class="price-card__title">Formatação</h3>
+              <p class="price-card__value"><span class="price-card__currency">R$</span> <span id="preco-formatacao" class="price-card__number">120</span></p>
+              <p class="price-card__note">Com instalação do sistema</p>
+              <a class="price-card__action btn-whatsapp-servico" href="#" data-whatsapp-servico="formatacao" title="Chamar no WhatsApp para formatação">
+                <span class="price-card__action-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></span>
+                Chamar no WhatsApp
+              </a>
+            </div>
+            <div class="price-card" data-animate data-animate-delay="2">
+              <div class="price-card__icon" aria-hidden="true">🖥️</div>
+              <h3 class="price-card__title">Montagem de PC</h3>
+              <p class="price-card__value"><span class="price-card__currency">R$</span> <span id="preco-montagem" class="price-card__number">150</span></p>
+              <p class="price-card__note">Montagem + configuração</p>
+              <a class="price-card__action btn-whatsapp-servico" href="#" data-whatsapp-servico="montagem" title="Chamar no WhatsApp para montagem">
+                <span class="price-card__action-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></span>
+                Chamar no WhatsApp
+              </a>
+            </div>
+            <div class="price-card price-card--highlight" data-animate data-animate-delay="3">
+              <div class="price-card__icon" aria-hidden="true">🔧</div>
+              <h3 class="price-card__title">Troca de peças</h3>
+              <p class="price-card__value price-card__value--custom">Orçamento</p>
+              <p class="price-card__note">Me fala o que quebrou que eu te falo o preço</p>
+              <a id="btn-whatsapp-precos" class="btn btn--small btn-whatsapp btn-whatsapp-servico" href="#" data-whatsapp-servico="trocaPecas" title="Pedir orçamento de troca de peças no WhatsApp">
+                <span class="btn__icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></span>
+                Pedir orçamento
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section section--why">
+        <div class="container">
+          <p class="section__label" data-animate>Sem firula</p>
+          <h2 class="section__title" data-animate>Como eu trabalho</h2>
+          <ul class="why-list">
+            <li class="why-list__item" data-animate data-animate-delay="0"><span class="why-list__icon">✓</span><span>Orçamento sem compromisso pelo WhatsApp</span></li>
+            <li class="why-list__item" data-animate data-animate-delay="1"><span class="why-list__icon">✓</span><span>Preços claros antes de fechar o serviço</span></li>
+            <li class="why-list__item" data-animate data-animate-delay="2"><span class="why-list__icon">✓</span><span>Não faço manutenção de peças — só trocas e instalação</span></li>
+            <li class="why-list__item" data-animate data-animate-delay="3"><span class="why-list__icon">✓</span><span>Atendimento direto, sem enrolação</span></li>
+          </ul>
+        </div>
+      </section>
+      <section class="section section--cta cta-block">
+        <div class="container">
+          <h2 class="cta-block__title" data-animate>Bora resolver?</h2>
+          <p class="cta-block__text" data-animate>Manda no WhatsApp o que tá precisando. Respondo na hora.</p>
+          <a id="btn-whatsapp-cta" class="btn btn--large btn--glow btn-whatsapp" href="#" data-animate>
+            <span class="btn__icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></span>
+            Entrar em contato
+          </a>
+        </div>
+      </section>
+    </div>
 
-    <section class="section section--why">
-      <div class="container">
-        <p class="section__label" data-animate>Sem firula</p>
-        <h2 class="section__title" data-animate>Como eu trabalho</h2>
-        <ul class="why-list">
-          <li class="why-list__item" data-animate data-animate-delay="0">
-            <span class="why-list__icon">✓</span>
-            <span>Orçamento sem compromisso pelo WhatsApp</span>
-          </li>
-          <li class="why-list__item" data-animate data-animate-delay="1">
-            <span class="why-list__icon">✓</span>
-            <span>Preços claros antes de fechar o serviço</span>
-          </li>
-          <li class="why-list__item" data-animate data-animate-delay="2">
-            <span class="why-list__icon">✓</span>
-            <span>Não faço manutenção de peças — só trocas e instalação</span>
-          </li>
-          <li class="why-list__item" data-animate data-animate-delay="3">
-            <span class="why-list__icon">✓</span>
-            <span>Atendimento direto, sem enrolação</span>
-          </li>
-        </ul>
-      </div>
-    </section>
+    <!-- View: Desenvolvimento -->
+    <div id="view-desenvolvimento" class="content-view" role="tabpanel" aria-labelledby="tab-desenvolvimento" hidden>
+      <section class="hero hero--dev">
+        <div class="container hero__inner">
+          <p class="hero__badge hero__badge--shine" data-animate data-animate-delay="0">💻 Backend, frontend e mobile</p>
+          <h1 class="hero__title" data-animate data-animate-delay="1">Precisa de site, API ou app? <span class="hero__highlight hero__highlight--gradient">Eu desenvolvo.</span></h1>
+          <p class="hero__text" data-animate data-animate-delay="2">PHP, Node.js, React, Next.js e React Native. Do backend ao app no celular. Orçamento sem compromisso pelo WhatsApp.</p>
+          <a class="btn btn--large btn--glow btn-whatsapp btn-whatsapp-dev" href="#" data-animate data-animate-delay="3">
+            <span class="btn__icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></span>
+            Falar sobre o projeto
+          </a>
+          <div class="hero__terminal hero__terminal--dev" aria-hidden="true" data-animate data-animate-delay="3">
+            <div class="terminal__bar"><span></span><span></span><span></span></div>
+            <pre class="terminal__code"><code><span class="term--comment">Stack:</span>
+  • Backend: PHP, Node.js
+  • Frontend: React, Next.js
+  • Mobile: React Native
 
-    <section class="section section--cta cta-block">
-      <div class="container">
-        <h2 class="cta-block__title" data-animate>Bora resolver?</h2>
-        <p class="cta-block__text" data-animate>Manda no WhatsApp o que tá precisando. Respondo na hora.</p>
-        <a id="btn-whatsapp-cta" class="btn btn--large btn--glow btn-whatsapp" href="#" data-animate>
-          <span class="btn__icon">
-            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-          </span>
-          Entrar em contato
-        </a>
-      </div>
-    </section>
+<span class="term--ok">Projeto sob medida → Chame no WhatsApp!</span><span class="terminal__cursor">|</span></code></pre>
+          </div>
+        </div>
+        <div class="hero__bg" aria-hidden="true"><div class="hero__orb hero__orb--1"></div><div class="hero__orb hero__orb--2"></div></div>
+      </section>
+      <div class="section-divider section-divider--wave" aria-hidden="true"></div>
+      <section class="section section--services" id="servicos-dev">
+        <div class="container">
+          <p class="section__label" data-animate>O que eu faço</p>
+          <h2 class="section__title" data-animate>Serviços de desenvolvimento</h2>
+          <div class="services-grid">
+            <article class="service-card" data-animate data-animate-delay="0">
+              <div class="service-card__icon" aria-hidden="true">⚙️</div>
+              <h3 class="service-card__title">Backend (PHP / Node)</h3>
+              <p class="service-card__desc">APIs, sistemas e lógica de negócio. PHP (Laravel, etc.) e Node.js para robustez e performance.</p>
+            </article>
+            <article class="service-card" data-animate data-animate-delay="1">
+              <div class="service-card__icon" aria-hidden="true">🔌</div>
+              <h3 class="service-card__title">APIs e integrações</h3>
+              <p class="service-card__desc">REST, integração com pagamento, envio de e-mail, outros sistemas. Documentação e manutenção.</p>
+            </article>
+            <article class="service-card" data-animate data-animate-delay="2">
+              <div class="service-card__icon" aria-hidden="true">🌐</div>
+              <h3 class="service-card__title">Sites e apps web (React / Next)</h3>
+              <p class="service-card__desc">Landing pages, dashboards, e-commerce e aplicações web com React e Next.js.</p>
+            </article>
+            <article class="service-card" data-animate data-animate-delay="3">
+              <div class="service-card__icon" aria-hidden="true">📱</div>
+              <h3 class="service-card__title">Apps mobile (React Native)</h3>
+              <p class="service-card__desc">Aplicativos para Android e iOS com React Native. Um código, duas plataformas.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="section section--pricing section--pricing-dev">
+        <div class="container">
+          <p class="section__label" data-animate>Investimento</p>
+          <h2 class="section__title" data-animate>Projeto sob medida</h2>
+          <p class="section__sub" data-animate>Cada projeto é único. Me conta a ideia que eu mando um orçamento sem compromisso.</p>
+          <div class="pricing-grid pricing-grid--single">
+            <div class="price-card price-card--highlight price-card--dev" data-animate>
+              <div class="price-card__icon" aria-hidden="true">💻</div>
+              <h3 class="price-card__title">Desenvolvimento</h3>
+              <p class="price-card__value price-card__value--custom">Orçamento por projeto</p>
+              <p class="price-card__note">Sites, sistemas, APIs ou apps. Me chama no WhatsApp que a gente alinha escopo e valor.</p>
+              <a class="btn btn--small btn-whatsapp btn-whatsapp-dev" href="#" title="Pedir orçamento de desenvolvimento no WhatsApp">
+                <span class="btn__icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></span>
+                Pedir orçamento no WhatsApp
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section section--why">
+        <div class="container">
+          <p class="section__label" data-animate>Como trabalho</p>
+          <h2 class="section__title" data-animate>Transparência e entrega</h2>
+          <ul class="why-list">
+            <li class="why-list__item" data-animate data-animate-delay="0"><span class="why-list__icon">✓</span><span>Orçamento e escopo claros antes de começar</span></li>
+            <li class="why-list__item" data-animate data-animate-delay="1"><span class="why-list__icon">✓</span><span>Stack moderna: PHP, Node, React, Next.js, React Native</span></li>
+            <li class="why-list__item" data-animate data-animate-delay="2"><span class="why-list__icon">✓</span><span>Backend, frontend e mobile — full stack</span></li>
+            <li class="why-list__item" data-animate data-animate-delay="3"><span class="why-list__icon">✓</span><span>Contato direto pelo WhatsApp, sem intermediário</span></li>
+          </ul>
+        </div>
+      </section>
+      <section class="section section--cta cta-block">
+        <div class="container">
+          <h2 class="cta-block__title" data-animate>Bora conversar?</h2>
+          <p class="cta-block__text" data-animate>Conta sua ideia no WhatsApp. Respondo e mando um orçamento sem compromisso.</p>
+          <a class="btn btn--large btn--glow btn-whatsapp btn-whatsapp-dev" href="#" data-animate>
+            <span class="btn__icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></span>
+            Falar sobre o projeto
+          </a>
+        </div>
+      </section>
+    </div>
   </main>
 
   <footer class="site-footer">
     <div class="container">
-      <p class="site-footer__text"><strong>Victor Rocha</strong> — assistência em informática. Sem enrolação, com transparência.</p>
+      <p class="site-footer__text"><strong>Victor Rocha</strong> — assistência em informática e desenvolvimento (PHP, Node, React, Next.js, React Native). Sem enrolação, com transparência.</p>
     </div>
   </footer>
+
+  <a id="whatsapp-float" class="whatsapp-float btn btn-whatsapp" href="#" aria-label="Falar no WhatsApp" title="Falar no WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
 
   <script src="js/config.js"></script>
   <script src="js/main.js"></script>
