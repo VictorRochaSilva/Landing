@@ -84,11 +84,9 @@
 
     var precoLimpeza = document.getElementById('preco-limpeza');
     var precoFormatacao = document.getElementById('preco-formatacao');
-    var precoMontagem = document.getElementById('preco-montagem');
 
     if (precoLimpeza) precoLimpeza.textContent = CONFIG.precos.limpeza;
     if (precoFormatacao) precoFormatacao.textContent = CONFIG.precos.formatacao;
-    if (precoMontagem) precoMontagem.textContent = CONFIG.precos.montagem;
   }
 
   function initScrollAnimations() {

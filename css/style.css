@@ -994,20 +994,19 @@ body::after {
   gap: 0.4rem;
   font-size: 0.9rem;
   font-weight: 600;
-  color: var(--accent);
+  color: #ffffff;
   text-decoration: none;
   margin-top: 0.75rem;
   padding: 0.5rem 0.75rem;
   border-radius: var(--radius-sm);
-  background: var(--accent-dim);
-  border: 1px solid rgba(56, 189, 248, 0.25);
-  transition: background 0.2s, color 0.2s, border-color 0.2s;
+  background: var(--accent);
+  border: none;
+  transition: background 0.2s, box-shadow 0.2s;
 }
 
 .price-card__action:hover {
-  background: rgba(56, 189, 248, 0.2);
-  color: var(--accent-hover);
-  border-color: rgba(56, 189, 248, 0.4);
+  background: var(--accent-hover);
+  box-shadow: 0 0 28px var(--glow);
 }
 
 .price-card__action:focus {
